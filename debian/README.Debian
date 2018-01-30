@@ -1,0 +1,8 @@
+dddvb-dkms for Debian
+---------------------
+
+Installing this package replaces the dvb_core kernel module with a
+modified version. Therefore dvb_core must not be compiled into the 
+kernel and should be either modular or disabled.
+
+ -- Andreas Messer <andi@bastelmap.de>  Tue, 30 Jan 2018 19:28:17 +0100

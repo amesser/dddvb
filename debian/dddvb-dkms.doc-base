@@ -1,0 +1,9 @@
+Document: dddvb-dkms
+Title: Digital Devices Driver Docs
+Author: Digital Devices GmbH
+Abstract: This manual contains the original Digital Devices
+ driver documentation
+Section: System/Hardware
+
+Format: text
+Files: /usr/share/doc/dddvb-dkms/docs/*

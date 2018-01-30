@@ -13,3 +13,6 @@
 *.orig
 *~
 \#*#
+
+# debian packaging rules
+debian/*.debhelper

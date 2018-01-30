@@ -1,0 +1,20 @@
+Source: dddvb-dkms
+Section: kernel
+Priority: optional
+Maintainer: Andreas Messer <andi@bastelmap.de>
+Build-Depends: debhelper (>= 9), dkms
+Standards-Version: 3.9.8
+Homepage: https://digitaldevices.de/downloads/treiber/
+Vcs-Git: https://github.com/amesser/dddvb.git
+#Vcs-Browser: https://anonscm.debian.org/cgit/collab-maint/dddvb-dkms.git
+
+Package: dddvb-dkms
+Architecture: all
+Depends: debhelper (>= 9), 
+         libelf-dev,
+         ${misc:Depends}
+Description: dkms source for the Digital Devices dvb driver
+ DVB Driver for Digital Devices DVB Cards as DKMS source. 
+ .  
+ Installation of this package will disable the in kernel dvb core
+ module.
