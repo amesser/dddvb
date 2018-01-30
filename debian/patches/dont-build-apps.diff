@@ -1,0 +1,12 @@
+--- a/Makefile
++++ b/Makefile
+@@ -6,7 +6,8 @@
+ 
+ all: 
+ 	$(MAKE) -C $(KDIR) SUBDIRS=$(PWD) $(MODDEFS) modules
+-	$(MAKE) -C apps
++# Do not build apps by dkms    
++#	$(MAKE) -C apps
+ 
+ dep:
+ 	DIR=`pwd`; (cd $(TOPDIR); make SUBDIRS=$$DIR dep)
